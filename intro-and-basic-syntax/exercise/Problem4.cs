@@ -19,8 +19,8 @@ namespace BeverageLabels
             double sugar = double.Parse(Console.ReadLine());
 
             //Calculating sugar and energy content
-            double sper100 = (sugar / 100) * volume;
-            double eper100 = (energycontent / 100) * volume;
+            double sugarPer100 = (sugar / 100) * volume; //changed variable name
+            double energyPer100 = (energycontent / 100) * volume; //changed variable name
 
             //Writing result on the console
             Console.WriteLine($"{volume}ml {name}:");
