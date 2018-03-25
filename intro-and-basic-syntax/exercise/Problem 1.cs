@@ -7,8 +7,8 @@ namespace _01._Debit
         static void Main(string[] args)
         {
             // Initializing variables.
-            int first = int.Parse(Console.ReadLine());
-            int second = int.Parse(Console.ReadLine());
+            int firstNum = int.Parse(Console.ReadLine());   // changed variable name
+            int secondNum = int.Parse(Console.ReadLine());  //changed variable name
             int third = int.Parse(Console.ReadLine());        //Edited
             int forth = int.Parse(Console.ReadLine());        //Edited
 
