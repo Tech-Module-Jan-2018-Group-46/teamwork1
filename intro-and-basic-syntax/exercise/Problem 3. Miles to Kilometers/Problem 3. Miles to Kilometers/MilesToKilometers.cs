@@ -8,9 +8,9 @@ namespace Problem_3._Miles_to_Kilometers
         {
             //Recieve miles from the Console as double
             double miles = double.Parse(Console.ReadLine());
-            double result =  miles * 1.60934;       //Convert miles to km
+            double resultmiles =  miles * 1.60934;       //Convert miles to km
             //print result
-            Console.WriteLine($"{result:F2}");
+            Console.WriteLine($"{resultmiles:F2}");
         }
     }
 }
